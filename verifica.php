@@ -16,9 +16,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         echo "Credenziali errate";
     }
 }
+?>
+<form>
+    
+</form>
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
     
+    $stmt = $pdo->prepare("INSERT INTO iscrizioni_corsi (id_iscrizione, id_corso, id_membro, data_iscrizione, orario_preferito) VALUES ()");
 }
 ?>
 
